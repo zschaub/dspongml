@@ -21,10 +21,11 @@ Create X/y matrices
 See 5.2/12a: X_iris/y_iris setup via pd.drop()  
 Train and save your ML model  
 See class examples or https://github.com/memoatwit/dsexample/blob/master/Insurance%20-%20Model%20Training%20Notebook.ipynb
-	
-	`from joblib import dump, load`  
-	`dump(clf, 'mymodel.joblib') #save`  
-	`clf2 = load('mymodel.joblib')  #load`  
+```python
+	from joblib import dump, load 
+	dump(clf, 'mymodel.joblib') #save  
+	clf2 = load('mymodel.joblib')  #load
+```
 3. Deploy
 Go back to lab4.py, set `train = False` and complete around line 150 to predict the next moving direction for the paddle. 
 
