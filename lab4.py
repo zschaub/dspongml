@@ -147,6 +147,7 @@ def main():
 
         #runtime loop
         if not train: #deploy model
+            pass #EDIT: ADD YOUR CODE HERE
             #complete this to predict using your model! 
             #full write:
             # train_file.writerow([b0.x, b0.y, b0.vx, b0.vy, dir, p0.y, Ball.RADIUS, Paddle.L, Paddle.STEP, CONSTS.WIDTH, CONSTS.HEIGHT, CONSTS.BORDER, CONSTS.VELOCITY, CONSTS.FPS])
