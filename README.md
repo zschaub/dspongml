@@ -26,12 +26,13 @@ Save your model to be used in the game, where `model` is the name of your scikit
 	dump(model, 'mymodel.joblib') #save  
 ```
 3. Deploy:  
-Go back to lab4.py, set `train = False` around line 94 and load your model: 
+- go back to lab4.py, set `train = False` around line 94
+- load your model in the `if not train` block, around line 150: 
 ```python
 	from joblib import dump, load 
 	model = load('mymodel.joblib')  #load
 ```
-Finally, complete the logic around line 150 to predict the next moving direction and to control the paddle. 
+- finally, complete the logic to predict the desired paddle postion/direction and to control the paddle to that location. 
 
 
 ## Example
