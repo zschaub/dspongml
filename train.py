@@ -27,11 +27,11 @@ def main():
     linear.fit(Xtrain, ytrain)
     print("Linear", linear.score(Xtest, ytest))
 
-    lasso = Lasso(alpha=0.1)
+    lasso = Lasso()
     lasso.fit(Xtrain, ytrain)
     print("Lasso", lasso.score(Xtest, ytest))
 
-    ridge = Ridge(alpha=0.5)
+    ridge = Ridge()
     ridge.fit(Xtrain, ytrain)
     print("Ridge", ridge.score(Xtest, ytest))
 
