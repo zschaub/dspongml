@@ -161,9 +161,9 @@ def main():
             y = model.predict(X)
 
             if y < p0.y:
-                dir = 1
-            elif y > p0.y:
                 dir = -1
+            elif y > p0.y:
+                dir = 1
             else:
                 dir = 0
 
